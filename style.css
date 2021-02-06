@@ -48,7 +48,9 @@ body {
     font-size: 16px/28px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #00587a;
+    background-image: url();
     color: #e7e7de;
+    text-align: justify;
 }
 
 
@@ -61,13 +63,15 @@ body {
 div.container div.header h1{
     font-size: 24px;
     margin-bottom: 15px;
+    padding-top: 10px;
     font-weight: bold;
     margin-left: 10px;
 }
 
 div.container .header ul li{
     display: inline-block;
-    margin: auto 10px;
+    margin: 10px;
+    margin-bottom: 15px;
 }
 
 div.container .header ul li a{
@@ -81,3 +85,38 @@ div.container .header ul li a:hover{
     transition: 0.5s;
 }
 
+div.container div.banner {
+    height: 300px;
+    background-image: url(gambar/gambar.jpg);
+    background-size: cover;
+    background-position: 0 -120px;
+    border-top: 5px solid #00587a;
+    border-bottom: 5px solid #0f3057;
+}
+.content{
+    padding: 15px;
+}
+
+.content h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.penulis{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.content p{
+    margin-bottom: 15px;
+}
+
+.footer{
+    background-color: #276678;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.footer p{
+    text-align: center;
+}
