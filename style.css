@@ -43,4 +43,8 @@ table {
 }
 
 /*style begin*/
+.container {
+    margin: auto;
+    width: 800px;
+}
 
