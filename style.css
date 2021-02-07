@@ -126,6 +126,15 @@ div.container div.banner {
     margin-bottom: 10px;
 }
 
+.sidebar img{
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p{
+    font-size: 15px;
+}
+
 .clear {
     clear: both;
 }
