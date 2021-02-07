@@ -92,11 +92,14 @@ div.container div.banner {
     border-top: 5px solid #00587a;
     border-bottom: 5px solid #0f3057;
 }
-.content{
+.utama{
+    width: 600px;
     padding: 15px;
+    box-sizing: border-box;
+    float: left;
 }
 
-.content h1{
+.utama h1{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 6px;
@@ -107,12 +110,24 @@ div.container div.banner {
     margin-bottom: 10px;
 }
 
-.utama {
-    width: 600px;
-}
-
 .utama p{
     margin-bottom: 15px;
+}
+
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 15px;
+}
+
+.sidebar h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: both;
 }
 
 .footer{
