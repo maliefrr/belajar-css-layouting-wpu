@@ -54,9 +54,29 @@ body {
 
 
 .container {
-    margin: auto;
+    margin: 0 auto;
     width: 960px;
     background-color: #008891;
+    padding-top: 40px;
+    position: relative;
+}
+
+.hiasan .medali{
+    position: absolute;
+    top: -26px;
+    right: -53px;
+    
+}
+
+.hiasan .tomat{
+    position: absolute;
+    top: 50px;
+    right: 14px;
+}
+
+.container .header {
+    position: relative;
+    top: -15px;
 }
 
 div.container div.header h1{
