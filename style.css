@@ -55,7 +55,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 960px;
+    width: 75vmax;
     background-color: #008891;
     padding-top: 40px;
     position: relative;
@@ -105,12 +105,13 @@ div.container .header ul li a:hover{
 }
 
 div.container div.banner {
-    height: 350px;
+    height: 45vmin;
     background-image: url(gambar/gambar.jpg);
     background-size: cover;
-    background-position: 0 -120px;
+    background-position: 0 -12vmin;
     border-top: 5px solid #00587a;
     border-bottom: 5px solid #0f3057;
+    background-repeat: no-repeat;
 }
 .utama{
     width: 600px;
